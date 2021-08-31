@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeybrown-ctrl/virt-m-19-p.git"
+    "url": "git+https://github.com/jlentz17/food-festival"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joeybrown-ctrl/virt-m-19-p/issues"
+    "url": "https://github.com/jlentz17/food-festival/issues"
   },
-  "homepage": "https://github.com/joeybrown-ctrl/virt-m-19-p#readme",
+  "homepage": "https://github.com/jlentz17/food-festival#readme",
   "devDependencies": {
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^7.0.1",
