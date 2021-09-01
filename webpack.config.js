@@ -1,6 +1,5 @@
 const webpack = require('webpack');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin;
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 // const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 // const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require('path');
@@ -14,7 +13,7 @@ const config = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, "dist")
+    path: `${__dirname}/dist`
   },
   module: {
     rules: [
@@ -28,7 +27,7 @@ const config = {
               name(file) {
                 return '[path][name].[ext]';
               },
-              publicPath: function(url) {
+              publicPath(url) {
                 return url.replace('../', '/assets/');
               }
             }
