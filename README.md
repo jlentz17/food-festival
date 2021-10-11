@@ -4,7 +4,7 @@ GitHub Repo: [https://github.com/jlentz17/food-festival](https://github.com/jlen
 
 Deployed at: [https://jlentz17.github.io/food-festival/](https://jlentz17.github.io/food-festival/) <br>
 
-![image](preview.png)
+![image](food-fest.png)
 ## Description
 A PWA formatted website designed for a food festival where users can view schedule of events, testimonials, Mission Statement and stats.  Users can also purchase tickets to the food festivals.
 
